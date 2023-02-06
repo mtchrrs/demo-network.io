@@ -1,0 +1,275 @@
+.header{
+    height: 14vh;
+    /* display: flex;
+    align-items: center; */
+    position: relative;
+}
+
+.top{
+    height: 12vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #090909;
+}
+
+.bottom{
+    height: 2vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #D3FFE9;
+    color: white;
+    margin-top: 12vh; 
+}
+
+.name-link{
+    float: left;
+  color: #D3FFE9;
+  text-align: center;
+  letter-spacing: 18px;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 15px;
+  border-radius: 4px;
+  font-size: 25px;
+  /* font-weight: bold; */
+  padding-left: 200px
+}
+
+.name-link :hover{
+    text-decoration: none;
+    color: #D3FFE9;
+}
+
+.name-link :active{
+    text-decoration: none;
+    color: #D3FFE9;
+}
+
+.name-link :link {
+    text-decoration: none;
+    color: #D3FFE9;
+}
+  
+.name-link :visited {
+    text-decoration: none;
+    color: #D3FFE9;
+}
+
+
+.logo-cont{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color: #D3FFE9;
+    margin-top: 5vh;
+    z-index: 4;
+}
+
+.logo{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navlist{
+    float: right;
+    color: white;
+    list-style: none;
+    padding-right: 240px;
+}
+
+.box{
+    background-color: #8DDBE0;
+    margin-right: 20px;
+    width: 80px;
+
+    margin-top: 8px;
+    margin-right: 120px;
+}
+
+.link-signup{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    border-radius: 20px;
+    color:#090909;
+}
+
+.link-signup :hover{
+    text-decoration: none;
+    color:#090909;
+}
+
+.link-signup :active{
+    text-decoration: none;
+    color:#090909;
+}
+
+.link-signup :link {
+    text-decoration: none;
+    color:#090909;
+}
+  
+.link-signup :visited {
+    text-decoration: none;
+    color:#090909;
+}
+
+.link-login{
+    float: left;
+    color: #D3FFE9;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    border-radius: 4px;
+}
+
+.link-login :hover{
+    text-decoration: none;
+    color: #D3FFE9;
+}
+
+.link-login :active{
+    text-decoration: none;
+    color: #D3FFE9;
+}
+
+.link-login :link {
+    text-decoration: none;
+    color: #D3FFE9;
+}
+  
+.link-login :visited {
+    text-decoration: none;
+    color: #D3FFE9;
+}
+
+@media only screen and (max-width: 400px) {
+    .header{
+        height: 14vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        background-color:#090909;
+    }
+    .bottom{
+        height: 8vh;
+        width: 100vw;
+        position: absolute;
+        background-color: #D3FFE9;
+        color: white;
+        margin-top: 20vh; 
+    }
+    .name-link{
+      color: #D3FFE9;
+      text-align: center;
+      letter-spacing: 18px;
+      padding: 12px;
+      padding-left: 60px;
+      text-decoration: none;
+      line-height: 15px;
+      border-radius: 4px;
+      font-size: 25px;
+    }
+    .logo-cont{
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background-color: #D3FFE9;
+        margin-top: 7vh;
+        z-index: 4;
+    }
+
+    .logo{
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+        transform: translate(-50%, -50%);
+    }
+
+    .navlist{
+        float: center;
+        color: white;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+    }
+
+    .box{
+        background-color: #8DDBE0;
+        width: 80px;
+        margin-top: 8px;
+    }
+
+    .link-signup{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 22px;
+        line-height: 35px;
+        border-radius: 20px;
+        color:#090909;
+        margin-top: 20px;
+        margin-left: 270px;
+        z-index: 4;
+        height: 40px;
+    }
+    
+    .link-login{
+        color: black;
+        text-align: center;
+        margin-top: 14px;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 22px;
+        line-height: 35px;
+        border-radius: 4px;
+        z-index: 9;
+    }
+    .link-login :hover{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .link-login :active{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .link-login :link {
+        text-decoration: none;
+        color: black;
+    }
+      
+    .link-login :visited {
+        text-decoration: none;
+        color: black;
+    }
+}

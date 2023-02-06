@@ -1,0 +1,172 @@
+/* build page */
+.form-cont-opp{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D3FFE9;
+}
+
+.form-opp{
+    width: 95vw;
+    height: 90vh;
+    margin: auto;
+    margin-top: 0px;
+    background-color: #8DDBE0;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opp-title{
+    padding-left: 100px;
+    margin-top: 40px;
+    font-size: 34px;
+    line-height: 12px;
+}
+
+.opp-inp{
+    margin-left: 100px;
+    width: 80%;
+}
+
+.form-input{
+    background-color: #9BC4BC;
+    height: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.submit-btn-opp{
+    height: 45px;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-left: 43%;
+    font-weight: bold;
+    background-color: #D3FFE9;
+}
+
+/* opps page */
+.main-cont-opp{
+    width: 100vw;
+    height: 160vh;
+    background-color: #D3FFE9;
+}
+
+.opp-holder{
+    width: 95vw;
+    height: 140vh;
+    margin: auto;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.opp-block{}
+
+.text-opp{
+    font-size: 34px;
+}
+
+.description-opp{
+    font-size: 16px;
+}
+
+.back-btn{
+    color: white;
+    font-size: 20px;
+}
+
+.back-btn :hover{
+    text-decoration: none;
+    color: white;
+}
+
+.back-btn :active{
+    text-decoration: none;
+    color: white;
+}
+
+.back-btn :link {
+    text-decoration: none;
+    color: white;
+}
+  
+.back-btn :visited {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 400px) {
+    .form-cont-opp{
+        width: 100vw;
+        height: 100vh;
+        background-color: #D3FFE9;
+        margin-top: 7vh;
+    }
+    
+    .form-opp{
+        width: 95vw;
+        height: 90vh;
+        margin: auto;
+        margin-top: 0px;
+        background-color: #8DDBE0;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .opp-title{
+        padding-left: 15px;
+        margin-top: 40px;
+        font-size: 34px;
+        line-height: 34px;
+    }
+    
+    .opp-inp{
+        margin-left: 20px;
+        width: 310px;
+    }
+    
+    .form-input{
+        background-color: #9BC4BC;
+        height: 25px;
+        padding: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    .submit-btn-opp{
+        height: 45px;
+        padding: 8px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 18px;
+        margin-left: 23%;
+        font-weight: bold;
+        background-color: #D3FFE9;
+    }
+
+    .main-cont-opp{
+        width: 100vw;
+        height: 160vh;
+        background-color: #D3FFE9;
+        margin-top: 7vh;
+    }
+    
+    .description-opp{
+        font-size: 16px;
+    }
+}
