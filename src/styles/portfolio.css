@@ -1,0 +1,194 @@
+/* build page */
+
+.form-cont-port{
+    width: 100vw;
+    height: 200vh;
+    background-color: #D3FFE9;
+}
+
+.form{
+    width: 95vw;
+    height: 200vh;
+    margin: auto;
+    margin-top: 0px;
+    background-color: #8DDBE0;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    background-color: #9BC4BC;
+    height: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.subtitle{
+    margin-left: 100px;
+}
+
+.ed-inp{
+    margin-left: 100px;
+    width: 80%;
+}
+
+.ex-inp{
+    margin-left: 100px;
+    width: 80%;
+}
+
+.sk-inp{
+    margin-left: 100px;
+    width: 80%;
+}
+
+/* port page */
+.main-cont-port{
+    width: 100vw;
+    height: 160vh;
+    background-color: #D3FFE9;
+}
+
+.main-show{
+    width: 95vw;
+    height: 140vh;
+    margin: auto;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.opp-block{
+    width: 20%; 
+    text-align: center;
+    height: 40vh;
+    margin: 20px;
+    margin-top: 10px;
+    background-color: #8DDBE0;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.description{
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.education{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.experience{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.skills{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.last-skill{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .subtitle{
+        margin-left: 20px;
+    }
+
+    .ed-inp{
+        margin-left: 20px;
+        width: 310px;
+    }
+
+    .ex-inp{
+        margin-left: 20px;
+        width: 310px;
+    }
+
+    .sk-inp{
+        margin-left: 20px;
+        width: 310px;
+    }
+
+    .form-cont-port{
+        width: 100vw;
+        height: 180vh;
+        background-color: #D3FFE9;
+    }
+    
+    .form{
+        width: 95vw;
+        height: 170vh;
+        margin: auto;
+        margin-top: 7vh;
+        background-color: #8DDBE0;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .opp-block{
+        width: 80%; 
+        text-align: center;
+        height: 40vh;
+        margin: 20px;
+        margin-top: 10px;
+        background-color: #8DDBE0;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .description{
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .education{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .experience{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .skills{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .main-cont-port{
+        width: 100vw;
+        height: 160vh;
+        background-color: #D3FFE9;
+        margin-top: 7vh;
+    }
+    
+}

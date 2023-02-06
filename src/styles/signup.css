@@ -1,0 +1,269 @@
+.signup{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D3FFE9;
+    padding-top: 1px;
+}
+
+.title{
+    padding-left: 100px;
+    font-size: 34px;
+    line-height: 12px;
+} 
+
+
+/* form */
+
+
+.form-su{
+    width: 95vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 0px;
+    background-color: #8DDBE0;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    background-color: #9BC4BC;
+    height: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* form elements */
+
+/* top row */
+.top-row{
+    margin-right: 85px;
+}
+
+.name{
+    margin-left: 100px;
+    width: 300px;
+}
+
+.email{
+    width: 400px;
+}
+
+.pword{
+    width: 300px;
+}
+
+/* middle row */
+.mid-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.upload-text{
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* upload btn css */
+.uplBtn{
+    height: 35px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #D3FFE9;
+}
+
+.portfolio-link{
+    margin-left: 100px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.portfolio-link :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio-link :active{
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio-link :link {
+    text-decoration: none;
+    color: black;
+}
+  
+.portfolio-link :visited {
+    text-decoration: none;
+    color: black;
+}
+
+.opportunities-link{
+    margin-left: 100px;
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.opportunities-link :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.opportunities-link :active{
+    text-decoration: none;
+    color: black;
+}
+
+.opportunities-link :link {
+    text-decoration: none;
+    color: black;
+}
+  
+.opportunities-link :visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* third row */
+
+.third-row{
+    margin-left: 100px;
+}
+
+.bio{ 
+    width: 83%;
+}
+
+.social-links{
+    width: 213px;
+}
+
+/* submit */
+.submit-btn{
+    height: 45px;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 43%;
+    font-weight: bold;
+    background-color: #D3FFE9;
+}
+
+.error-message{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+    .signup{
+        width: 100vw;
+        height: 160vh;
+        background-color: #D3FFE9;
+        padding-top: 1px;
+        margin-top: 7vh;;
+    }
+
+    .form-su{
+        width: 95vw;
+        height: 140vh;
+        margin: auto;
+        margin-top: 0px;
+        background-color: #8DDBE0;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title{
+        padding-left: 124px;
+        font-size: 34px;
+        line-height: 12px;
+    } 
+
+    .top-row{
+        margin-right: 0px;
+    }
+    
+    .name{
+        margin-left: 20px;
+        width: 310px;
+    }
+    
+    .email{
+        margin-left: 20px;
+        width: 310px;
+    }
+    
+    .pword{
+        margin-left: 20px;
+        width: 310px;
+    }
+
+    .mid-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upload-text{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .portfolio-link{
+        margin-left: 20px;
+        margin-right: 0px;
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .opportunities-link{
+        margin-left: 20px;
+        margin-right: 0px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .bio{ 
+        width: 310px;
+        margin-left: 20px;
+    }
+    
+    .social-links{
+        width: 310px;
+        margin-left: 20px;
+    }
+
+    .submit-btn{
+        height: 45px;
+        padding: 8px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 30px;
+        font-size: 18px;
+        margin-left: 25%;
+        font-weight: bold;
+        background-color: #D3FFE9;
+    }
+}

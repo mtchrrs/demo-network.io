@@ -1,0 +1,16 @@
+.footer{
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    background-color: #090909;
+}
+
+.img-footer{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+}
+

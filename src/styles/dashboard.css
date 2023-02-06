@@ -1,0 +1,116 @@
+.main-cont-dash{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D3FFE9;
+}
+
+.dash-content{
+    width: 95vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 0px;
+    background-color: #8DDBE0;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-title{
+    font-size: 34px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.dash-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-indv-links{
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.dash-indv-links :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.dash-indv-links :active{
+    text-decoration: none;
+    color: black;
+}
+
+.dash-indv-links :link {
+    text-decoration: none;
+    color: black;
+}
+  
+.dash-indv-links :visited {
+    text-decoration: none;
+    color: black;
+}
+
+.dash-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dash-prof-text{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.dash-portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dash-port-text{
+    margin-left: 100px;
+    margin-right: 174px;
+}
+
+.dash-opportunities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dash-opp-text{
+    margin-left: 100px;
+    margin-right: 116px;
+}
+
+.copy-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-copy-text{
+    margin-left: 100px;
+    background-color: #9BC4BC;
+    height: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 400px;
+    color: white;
+    font-size: 18px;
+}
+
+.copy-btn{
+    margin-left: 100px;
+    height: 40px;
+    padding: 8px;
+    width: 420px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #D3FFE9;
+}

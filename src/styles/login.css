@@ -1,0 +1,83 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D3FFE9;
+    padding-top: 1px;
+}
+
+.login-title{
+    padding-left: 100px;
+    font-size: 34px;
+    line-height: 12px;
+}
+
+.login-form{
+    width: 95vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 0px;
+    background-color: #8DDBE0;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    background-color: #9BC4BC;
+    height: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.log-input{
+    margin-left: 100px;
+    width: 400px;
+}
+
+.btn{
+    height: 45px;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 100px;
+    font-weight: bold;
+    background-color: #D3FFE9;
+}
+
+.error-form{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+    .login{
+        margin-top: 7vh;
+        
+    }
+
+    .login-title{
+        padding-left: 140px;
+        font-size: 34px;
+        line-height: 12px;
+    }
+
+    .form-input{
+        background-color: #9BC4BC;
+        height: 25px;
+        padding: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    .log-input{
+        margin-left: 20px;
+        width: 310px;
+    }
+    
+}
