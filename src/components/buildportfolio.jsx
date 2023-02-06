@@ -8,6 +8,8 @@ import Profile from './profile'
 // import { QUERY_USER, QUERY_ME } from '../utils/queries'
 import { ADD_OPP } from '../utils/mutations'
 
+import SignUp from './signup'
+
 import '../styles/portfolio.css'
 
 const PortfolioBuild = () => {
@@ -168,11 +170,12 @@ const PortfolioBuild = () => {
             onChange={handleChange}
           />
           <button
-            className="submit-btn"
+            className="submit-btn-opp"
             style={{ cursor: 'pointer' }}
-            type="submit"
+            // type="submit"
           >
-           <Link to={`${process.env.PUBLIC_URL}/profile`} element={<Profile />}>Submit</Link>
+            
+            <Link to={`${process.env.PUBLIC_URL}/signup`} element={<SignUp />}>Submit</Link>
           </button>
         </form>
       )}

@@ -6,6 +6,7 @@ import { ADD_USER } from '../utils/mutations.js'
 
 import UploadBtn from '../components/uploadbtn'
 import Auth from '../utils/auth'
+import Dashboard from './dashboard'
 
 const SignUp = () => {
   const [formState, setFormState] = useState({
@@ -138,9 +139,13 @@ const SignUp = () => {
               value={formState.twitter}
               onChange={handleChange}
             />
-
-            <button className="submit-btn" style={{ cursor: 'pointer' }} type="submit">
-              Submit
+            <button
+              className="submit-btn-opp"
+              style={{ cursor: 'pointer' }}
+              // type="submit"
+          >
+            
+            <Link to={`${process.env.PUBLIC_URL}/dashboard`} element={<Dashboard />}>Submit</Link>
             </button>
           </form>
             )}

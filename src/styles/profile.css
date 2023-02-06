@@ -1,11 +1,11 @@
 .profile{
     background-color: #D3FFE9;
-    height: 100vh;
+    height: 140vh;
 }
 
 .prof-content{
     width: 95vw;
-    height: 80vh;
+    height: 100vh;
     margin: auto;
     margin-top: 0px;
     background-color: black;
@@ -42,6 +42,30 @@
     text-align: center;
 }
 
+.no-link{
+    text-decoration: none;
+    color: white;
+}
+
+.no-link :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.no-link :active{
+    text-decoration: none;
+    color: black;
+}
+
+.no-link :link {
+    text-decoration: none;
+    color: black;
+}
+  
+.no-link :visited {
+    text-decoration: none;
+    color: black;
+}
 
 
 .user-portfolio{

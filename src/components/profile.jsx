@@ -5,6 +5,9 @@ import { useQuery } from '@apollo/client'
 import { QUERY_USER, QUERY_ME } from '../utils/queries'
 import Auth from '../utils/auth'
 import Logo from '../assets/networkio-logo.png'
+import Icon from '../assets/icon.png';
+import Opportunities from './opportunities'
+import Portfolio from './portfolio'
 
 const Profile = () => {
   const { username: userParam } = useParams()
@@ -37,7 +40,7 @@ const Profile = () => {
       <div className="prof-content">
         <div className="main-profile">
           <img
-            src={user.profileImg}
+            src={Icon}
             className="user-img"
             alt="User Profile Image"
           />
@@ -49,10 +52,11 @@ const Profile = () => {
 
         <div className="user-links">
           <div className="user-portfolio">
-            <a href={user.portfolioLink}>My Portfolio</a>
+            <Link className="no-link" to={`${process.env.PUBLIC_URL}/portfolio`} element={<Portfolio />}>My Portfolio</Link>
+            <a href={user.portfolioLink}></a>
           </div>
           <div className="user-opportunities">
-            <a href={user.opportunitiesLink}>Opportunities to Connect</a>
+            <Link className="no-link" to={`${process.env.PUBLIC_URL}/opportunities`} element={<Opportunities />}>Opportunities to Connect</Link>
           </div>
           <div className="user-socials">
             <a className="indv-link" href={user.linkedin}>Linkedin</a>

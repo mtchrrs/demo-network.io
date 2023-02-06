@@ -6,6 +6,7 @@ import { useMutation } from '@apollo/client'
 // import { QUERY_USER, QUERY_ME } from '../utils/queries'
 import { ADD_OPP } from '../utils/mutations'
 import Auth from '../utils/auth'
+import SignUp from './signup'
 
 function OpportunitiesBuild () {
   const { username: userParam } = useParams()
@@ -117,9 +118,10 @@ function OpportunitiesBuild () {
           <button
             className="submit-btn-opp"
             style={{ cursor: 'pointer' }}
-            type="submit"
+            // type="submit"
           >
-            Submit
+            
+            <Link to={`${process.env.PUBLIC_URL}/signup`} element={<SignUp />}>Submit</Link>
           </button>
         </form>
           )}

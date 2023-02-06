@@ -22,23 +22,23 @@ const Portfolio = () => {
             <div className="main-show">
                 <div className="opp-block">
                     <h1 className="education">Education</h1>
-                    <h1 className="text">edTwoTitle{user.edOneTitle}</h1>
-                    <p className="description">edTwoDescr{user.edOneDescr}</p>
-                    <h1 className="text">edTwoTitle{user.edTwoTitle}</h1>
-                    <p className="description">edTwoDescr{user.edTwoDescr}</p>
+                    <h1 className="text">Newman College{user.edOneTitle}</h1>
+                    <p className="description">Highschool - Graduated 2020, Head Boy, 97 ATAR{user.edOneDescr}</p>
+                    <h1 className="text">Uni of WA{user.edTwoTitle}</h1>
+                    <p className="description">Bcomm, Finance and Marketing{user.edTwoDescr}</p>
                 </div>
                 <div className="opp-block">
                     <h1 className="experience">Experience</h1>
-                    <h1 className="text">exOneTitle{user.exOneTitle}</h1>
-                    <p className="description">exOneDescr{user.exOneDescr}</p>
-                    <h1 className="text">exOneTitle{user.exTwoTitle}</h1>
-                    <p className="description">exOneDescr{user.exTwoDescr}</p>
+                    <h1 className="text">Demolition{user.exOneTitle}</h1>
+                    <p className="description">I worked in construction for a bit{user.exOneDescr}</p>
+                    <h1 className="text">Marketing{user.exTwoTitle}</h1>
+                    <p className="description">I am currently working in advertising{user.exTwoDescr}</p>
                 </div>
                 <div className="opp-block">
                     <h1 className="skills">Skills</h1>
-                    <h1 className="text">skill 1{user.skillOne}</h1>
-                    <h1 className="text">skill 2{user.skillTwo}</h1>
-                    <h1 className="text last-skill">skill 3{user.skillThree}</h1>
+                    <h1 className="text">Communication{user.skillOne}</h1>
+                    <h1 className="text">Project Management{user.skillTwo}</h1>
+                    <h1 className="text last-skill">Collaboration{user.skillThree}</h1>
                 </div>
                 <btn className="back-btn"><Link to={`${process.env.PUBLIC_URL}/profile`} element={<Profile />}>Back</Link></btn>
             </div>
